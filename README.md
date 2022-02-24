@@ -1,2 +1,2 @@
 # NORDESTINOARTS
-Site destinado a meus designs mobile
+Site destinado a minhas artes feitas pelo celular
