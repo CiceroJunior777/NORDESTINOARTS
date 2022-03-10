@@ -18,21 +18,19 @@
   <!--Estilos-->
 
   <!--Cabeçalho da Página-->
-
   <header class="p-3 bg-dark text-white">
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
           <li><a><img src="Img/perfil.png" width="40" height="40"></a></li>
           <li><a href="#" class="nav-link px-2 text-white">Nordestino Arts</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
         </ul>
       </div>
     </div>
   </header>
 
+
   <!--Corpo do Projeto-->
-  
   <main>
     <section class="py-5 text-center container">
       <div class="row py-lg-5">
@@ -46,34 +44,39 @@
       </div>
     </section>
 
-<!--Destaques-->
+    <!--Destaques-->
 
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="/Img/perfil.png" class="d-block w-100" alt="...">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/Img/perfil.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 
     <!--Img 01-->
     <div class="album py-5">
@@ -272,8 +275,30 @@
     </div>
   </main>
 
-    <!--JavaScript-->
-    <script src="/js/bootstrap.min.js" ></script>
+  <!--mudar de pagina-->
+  <!-- <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled">
+        <a class="page-link">Previous</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav> -->
+
+  <!--rodapé-->
+  <nav class="p-4 nav bg-dark">
+    <a class="nav-link active" href="#" target="_blank"><img src="/Img/Icones/instagram.png" width="35" height="35"></a>
+    <a class="nav-link active" href="#" target="_blank"><img src="/Img/Icones/whatsapp.png" width="35" height="35"></a>
+    <a class="nav-link active" href="#" target="_blank"><img src="/Img/Icones/tik-tok.png" width="35" height="35"></a>
+  </nav>
+
+  <!--JavaScript-->
+  <script src="/js/bootstrap.min.js"></script>
 </body>
 
 </html>
